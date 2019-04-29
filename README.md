@@ -9,11 +9,16 @@ Developing Applications for iOS Fall 2013-14
 ### 第一课 课务、iOS概述  
 
 ### 第二课  Xcode 5  卡牌游戏
-All properties start out with a value of 0  所有属性的初始值都是0
-(called nil for pointers to objects).  (为指向对象的指针调用nil)。
-So all we need to do is allocate and initialize the object if the pointer to it is nil 所以我们需要做的就是分配和初始化对象如果指向它的指针是nil
-This is called “lazy instantiation”. 这称为“延迟实例化”。
+All properties start out with a value of 0  
+(called nil for pointers to objects).  
+So all we need to do is allocate and initialize the object if the pointer to it is nil 
+This is called “lazy instantiation”. 
 Now you can start to see the usefulness of a @property
+
+所有属性的初始值都是0
+(为指向对象的指针调用nil)。
+所以我们需要做的就是分配和初始化对象如果指向它的指针是nil
+这称为“延迟实例化”。
 ```
 - (NSMutableArray *)cards
 {
