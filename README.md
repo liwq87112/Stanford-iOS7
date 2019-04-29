@@ -6,5 +6,4 @@
 Stanford CS193p
 Developing Applications for iOS Fall 2013-14
 
-第一课
-### 课务、iOS概述  
+### 第一课 课务、iOS概述  
