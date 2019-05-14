@@ -6,9 +6,9 @@
 Stanford CS193p
 Developing Applications for iOS Fall 2013-14
 
-### 第一课 课务、iOS概述  
+### 第一课 课务、iOS概述  4.28
 
-### 第二课  Xcode 5  卡牌游戏
+### 第二课  Xcode 5  卡牌游戏4.29
 All properties start out with a value of 0  
 (called nil for pointers to objects).  
 So all we need to do is allocate and initialize the object if the pointer to it is nil 
